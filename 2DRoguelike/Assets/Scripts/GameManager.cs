@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     //  게임 매니저는 1개만 있으면 되기 때문에 싱글턴화 한다.
     public static GameManager instance = null;
     public BoardManager boardScript;
+    public int playerFoodPoints = 100;
+    //  변수가 public 이지만 인스펙터에서 숨긴다
+    [HideInInspector] public bool playersTurn = true;
 
     private int level = 3;
 
@@ -23,6 +26,11 @@ public class GameManager : MonoBehaviour
         //  컴포넌트를 레퍼런스로 들고와 저장(call by reference : 값을 복사하는 것이 아닌 실제 오브젝트 대상 그 자체를 가져옴)
         boardScript = GetComponent<BoardManager>();
         InitGame();
+    }
+
+    public void GameOver()
+    {
+        enabled = false;
     }
 
     void InitGame()
