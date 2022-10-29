@@ -46,8 +46,8 @@ public class Player : MovingObject
 
         //  따로 빌드하기 위해, 현재 조작 코드는 키보드나 컨트롤러의 입력에 기반
         //  나중에 모바일이나 터치 스크린 입력을 받는 버전을 만들 예정
-        horizontal = (int)Input.GetAxis("Horizontal");
-        vertical = (int)Input.GetAxis("Vertical");
+        horizontal = (int)(Input.GetAxisRaw("Horizontal"));
+        vertical = (int)(Input.GetAxisRaw("Vertical"));
 
         //  만약 horizontal이 0이 아니라면 수평으로 이동중이기 때문에
         //  대각선으로 움직이는 것을 막기위해 수직 값을 0으로 
