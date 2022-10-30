@@ -41,3 +41,11 @@ Rigid Body 2D : 플레이어를 물리 시스템을 통해 움직이게 함
 Has Exit Time : (체크 해제 상태 )PlayerChop으로 트랜지션 하기 위해 PlayerIdle 애니메이션이 다 끝나거나 특정 지점까지 재생되는 것을 기다리지 않는 다는 뜻, PlayerChop에서 PlayerIdle로 트랜지션 할 때는 체크된 상태로 하고 ExitTime을 1로 한다.(PlayerIdle로 트랜지션해 돌아가기 전에 먼저 PlayerChop 애니메이션을 완전히 끝내야 함을 의미).
 
 Transition Duration 을 0으로, 스프라이트 기반의 애니메이션으로 작업 할 때는 Transition Duration을 0으로 한다(3D 애니메이션으로 작업할 때는 애니메이션 상태 사이에 블렌드(혼합)을 사용하는 게 보통이지만, 스프라이트 기반의 애니메이션에서는 불가능하기 때문에 하나의 상태에서 다른 상태로 곧바로 트랜지션 해야 함)
+
+
+
+#### UI & Levels 만들기
+
+------
+
+Canvas : 모든 유저 인터페이스(UI) 요소들이 자리 잡는 곳
