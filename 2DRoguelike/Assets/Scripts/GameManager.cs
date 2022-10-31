@@ -44,7 +44,9 @@ public class GameManager : MonoBehaviour
     //  씬이 로드 될 때 마다 호출, 현재 레벨 숫자를 더하고 새 레벨이 로드됬을때 InitGame 함수를 호출하는데 사용
     private void OnLevelWasLoaded(int index)
     {
+        level++;
 
+        InitGame();
     }
 
     public void GameOver()
@@ -54,8 +56,20 @@ public class GameManager : MonoBehaviour
 
     void InitGame()
     {
+        doingSetup = true;
+        levelImage = GameObject.Find("LevelImgae");
+        levelText = GameObject.Find("LevelText").GetComponent<Text>();
+        levelText.text = "Day " + level;
+        levelImage.SetActive(true);
+
         enemies.Clear();
         boardScript.SetupScene(level);
+    }
+
+    private void HideLevelImage()
+    {
+        levelImage.SetActive(false);
+        doingSetup = false;
     }
 
     // Update is called once per frame
