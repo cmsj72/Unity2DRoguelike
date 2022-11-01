@@ -15,11 +15,11 @@ D:/UnityProjectSpace/Unity2DRoguelike/2DRoguelike
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5794
+14925
 Successfully changed project path to: D:/UnityProjectSpace/Unity2DRoguelike/2DRoguelike
 D:/UnityProjectSpace/Unity2DRoguelike/2DRoguelike
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,99 +35,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001959 seconds.
+Registered in 0.002105 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
+- Completed reload, in  0.859 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000719 seconds.
+Registered in 0.000603 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2271.
-Total: 2.298200 ms (FindLiveObjects: 0.378400 ms CreateObjectMapping: 0.065100 ms MarkObjects: 1.721200 ms  DeleteObjects: 0.132600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Memo.md
-  artifactKey: Guid(ce6178ec3707fd441aa0b7d8f94d1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Memo.md using Guid(ce6178ec3707fd441aa0b7d8f94d1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec06618252604024d9aaace1491b7ae1') in 0.035148 seconds
-  Import took 0.074902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.749024 seconds.
-  path: Assets/Memo.md
-  artifactKey: Guid(ce6178ec3707fd441aa0b7d8f94d1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Memo.md using Guid(ce6178ec3707fd441aa0b7d8f94d1e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246bd781c4d0569534979a65f1d60bbf') in 0.001818 seconds
-  Import took 0.016331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 201.640970 seconds.
-  path: Assets/TutorialInfo/Fonts/Roboto-Thin.ttf
-  artifactKey: Guid(826c6ae75667a440f8d925b3ff94a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Fonts/Roboto-Thin.ttf using Guid(826c6ae75667a440f8d925b3ff94a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8963913995eb59e6a90d3900d67aa711') in 0.144737 seconds
-  Import took 0.157915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TutorialInfo/Fonts/RobotoCondensed-Bold.ttf
-  artifactKey: Guid(b20f139c373fa4555a05cdd0036dfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Fonts/RobotoCondensed-Bold.ttf using Guid(b20f139c373fa4555a05cdd0036dfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c017e649c207b26cb7f30ddf30e1149') in 0.038013 seconds
-  Import took 0.061582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001403 seconds.
-  path: Assets/TutorialInfo/Fonts/RobotoCondensed-Bold.ttf
-  artifactKey: Guid(b20f139c373fa4555a05cdd0036dfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Fonts/RobotoCondensed-Bold.ttf using Guid(b20f139c373fa4555a05cdd0036dfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c017e649c207b26cb7f30ddf30e1149') in 0.009550 seconds
-  Import took 0.012366 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
 OnLevelWasLoaded was found on GameManager
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.6 MB.
-System memory in use after: 91.5 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 2.155000 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.623000 ms  DeleteObjects: 0.097300 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 1.970800 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.573800 ms  DeleteObjects: 0.114100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(9443086c393262549ac645c056b79288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(9443086c393262549ac645c056b79288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c2973bd8a0774cf36830e8ff3f511f') in 0.022194 seconds
+  Import took 0.024724 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

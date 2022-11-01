@@ -51,6 +51,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        levelText.text = "After " + level + " days, you starved.";
+        levelImage.SetActive(true);
         enabled = false;
     }
 
@@ -61,6 +63,7 @@ public class GameManager : MonoBehaviour
         levelText = GameObject.Find("LevelText").GetComponent<Text>();
         levelText.text = "Day " + level;
         levelImage.SetActive(true);
+        Invoke("HideLevelImage", levelStartDelay);
 
         enemies.Clear();
         boardScript.SetupScene(level);
@@ -75,7 +78,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playersTurn || enemiesMoving)
+        if (playersTurn || enemiesMoving || doingSetup)
             return;
 
         StartCoroutine(MoveEnemies());
