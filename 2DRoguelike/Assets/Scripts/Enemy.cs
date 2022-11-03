@@ -6,6 +6,8 @@ public class Enemy : MovingObject
 {   
     //  적이 플레이어를 공격할 때 뺄셈할 음식 포인트
     public int playerDamage;
+    public AudioClip enemyAttack1;
+    public AudioClip enemyAttack2;
 
     private Animator animator;
     private Transform target;
@@ -62,5 +64,7 @@ public class Enemy : MovingObject
 
         hitPlayer.LoseFood(playerDamage);
         //throw new System.NotImplementedException();
+
+        SoundManager.instance.RandomizeSfx(enemyAttack1, enemyAttack2);
     }
 }
